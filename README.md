@@ -19,7 +19,7 @@
 - SecondHand is developed using SWIFT UI for the Views, UIkit for navigation, and firebase for the backend. 15+ screens
 - Followed clean architecture principles, with separation of concerns, dependency injections via Protocols and MVVM + Repo + Coordinator pattern
 - Extensive use of asynchronus functions with async/await, combine and callbacks.
-- This project is based on the orginial project SecondHand, is aims to show how you harness the power of SwiftUI while keeping the project in UIkit and benefit from the ability to separate Views from the routing flow to adhere to SOLID principles
+- This project is based on the orginal project SecondHand, and aims to show how you can harness the power of SwiftUI while keeping the project in UIkit and benefit from the ability to separate Views from the routing flow to better adhere to SOLID principles
 
 
 ## Technologies Used
@@ -63,7 +63,7 @@ Hopefully everything should be fairly intuitive and work as you expect a market 
 
 
 ## Project Status
-The goal of this project was to enable me to show how you can benefit from ease of building views with SWFIT UI while keeping the project in UIkit so that Apps currently running on UIkit can use this example to at least start using Swift UI for new screens/features. So if the project is currently in using MVC it should first be changed to MVVM, routing logic should be extracted from the Views and then you can start using Swift ui for new features or replace XIB/viewControllers, file by file without having to much the all App structure at once. I won't keep working on this project as I feel it's big enough to show that this pattern could be useful to many companies.
+The goal of this project was to enable me to show how you can benefit from ease of building views with SWFIT UI while keeping the project in UIkit so that Apps currently running on UIkit can use this example to at least start using Swift UI for new screens/features. So if the project is currently in using MVC it should first be changed to MVVM, routing logic should be extracted from the Views and then you can start using Swift ui for new features or replace XIB/viewControllers, file by file without having to change the all App structure at once. I won't keep working on this project as I feel it's big enough to show that this pattern could be useful to many companies.
 
 
 ## Contact
